@@ -1,0 +1,261 @@
+body{
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    
+}
+.red{
+    color: rgb(216, 50, 141);
+    margin: 5px;
+    text-decoration: none;
+}
+.grey{
+    color: rgb(128, 115, 115);
+    margin: 5px;
+    text-decoration: none;
+}
+.container2{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    
+}
+.format{
+    width: 100%;
+    float: right;
+
+}
+.text{
+    width: 50%;
+
+}
+.style1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FF3998;
+
+}
+.style2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+    color: #111111;
+    margin-top: 5px;
+    margin-bottom: 45px;
+}
+.style3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #555555;
+}
+.style4{
+
+}
+.imgcon{
+    color: black;
+    text-align: left;
+    position: relative;
+    margin-top: 45px;
+}
+
+.centered {
+  position: absolute;
+  bottom: 30%;
+  left: 5%;
+  font-size: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+
+}
+.centered2{
+    position: absolute;
+    bottom: 18%;
+    left: 5%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.flexboxtagcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+.vienas{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+.du{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+}
+.greyroid{
+    height: 400px;
+    width: 290px;
+    background: #EEEEEE;
+    border-radius: 16px;
+    border-style: ridge;
+}
+
+.flexx{
+    display: flex;
+    justify-content: space-between;
+}
+.gloop{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FF8139;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 7%;
+
+}
+.topbid{
+    margin-top: 7%;
+    margin-right: 10%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    color: #777777;
+    font-size: 12px;
+
+}
+.name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    color: #111111;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+
+}
+.number{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    color: #777777;
+
+
+}
+.star{
+    text-align: end;
+    align-content: stretch;
+}
+.vis{
+    border: 2px outset grey;
+    border-left: 0px;
+    border-right: 0px;
+    width: 90%;
+    height: 467px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    padding-top: 50px;
+
+    flex-wrap: wrap;
+    margin-right: 0px;
+    position: relative;
+}
+.vis2{
+    width: 90%;
+    height: 467px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.exl{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+}
+.marg{
+    margin-top: 20px;
+}
+.partflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxer{
+
+    background-color: red;
+}
+.con{
+    display: flex;
+    justify-content: space-evenly;
+}
+.uno{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+    letter-spacing: 0.1em;
+    color: #555555;
+}
+.dos{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #555555;
+}
+.fut{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+}
+.haha{
+    display: inline-block;
+    vertical-align: middle; 
+}
